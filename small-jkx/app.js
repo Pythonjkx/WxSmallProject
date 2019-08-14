@@ -34,6 +34,24 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    article_list:[
+      {
+        'picture':'/pages/image/c.jpg',
+        'title':'Python介绍:',
+        'content':'Python是一种计算机程序设计语言。是一种面向对象的动态类型语言，越来越多被用于独立的、大型项目的开发。',
+        'time':'2019-07-07',
+        'url':'/pages/list/list'
+      },
+      {
+        'picture': '/pages/image/火影.jpg',
+        'title': '火影忍者介绍:',
+        'content': '《火影忍者》改编自日本漫画家岸本齐史的同名漫画，共220话；第二季《火影忍者疾风传》共500话；累计全720话。',
+        'time': '2019-08-08',
+        'url': '/pages/list1/list1'
+      }
+    ]
+
   }
+
 })

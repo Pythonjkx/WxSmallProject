@@ -12,27 +12,27 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "#D7BDE2",
-    "selectedColor": "#EC7063",
+    "color": "#17202A",
+    "selectedColor": "#8E44AD",
     "backgroundColor": "#7DCEA0",
     "list": [
       {
         "text": "首页",
         "pagePath": "pages/index/index",
-        "iconPath": "pages/image/1119237.png",
-        "selectedIconPath":"pages/image/1119237.png"
+        "iconPath": "pages/image/草莓.png",
+        "selectedIconPath":"pages/image/草莓.png"
       },
       {
         "text": "详情页1",
-        "iconPath":"pages/image/538908.png",
+        "iconPath":"pages/image/棒冰.png",
         "pagePath": "pages/list1/list1",
-        "selectedIconPath": "pages/image/1119237.png"
+        "selectedIconPath": "pages/image/棒冰.png"
       },
       {
         "text": "详情页2",
         "pagePath": "pages/list/list",
-        "iconPath": "pages/image/568822.png",
-        "selectedIconPath": "pages/image/1119237.png"
+        "iconPath": "pages/image/马卡龙.png",
+        "selectedIconPath": "pages/image/马卡龙.png"
       }
     ]
   },

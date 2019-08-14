@@ -9,12 +9,6 @@
 <image src="/pages/image/b.jpeg" style="width:80%;height:100%;"></image>
 </swiper-item>
 <swiper-item>
-<image src="/pages/image/兜.jpg" style="width:80%;height:100%;"></image>
-</swiper-item>
-<swiper-item>
-<image src="/pages/image/吾爱罗.jpg" style="width:80%;height:100%;"></image>
-</swiper-item>
-<swiper-item>
 <image src="/pages/image/止水.jpg" style="width:80%;height:100%;"></image>
 </swiper-item>
 <swiper-item>
@@ -25,23 +19,14 @@
 </swiper-item>
 </swiper>
 
-<view class="content" hover-class="content_hover">
+<view class="content" hover-class="content_hover" wx:for="{{ article_list }}">
   <view class="a">
-    <image src="/pages/image/c.jpg" >hello</image>
+    <image src="{{ item.picture }}" >hello</image>
   </view>
   <view class="b">
-  <navigator class="font">Python介绍\n</navigator> 
-  <text class="d">Python是一种计算机程序设计语言。是一种面向对象的动态类型语言，随着版本的不断更新和语言新功能的添加，越来越多被用于独立的、大型项目的开发。</text>
-  </view>
-</view>
-
-<view class="content" hover-class="content_hover">
-  <view class="a">
-    <image src="/pages/image/火影.jpg" ></image>
-  </view>
-  <view class="b">
-  <navigator class="font">火影忍者介绍\n</navigator> 
-  <text class="d">电视动画《火影忍者》改编自日本漫画家岸本齐史的同名漫画，共220话；第二季《火影忍者疾风传》自2007年2月开始播出，共500话；累计全720话。</text>
+  <navigator class="font" open-type="reLaunch" url="{{ item.url }}">{{ item.title }}</navigator> 
+  <text class="d">{{ item.content }}</text>
+  <view class="u">{{ motto }}  {{ item.time }}</view>
   </view>
 </view>
 </view>

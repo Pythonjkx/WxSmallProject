@@ -1,2 +1,44 @@
 <!--pages/list1/list1.wxml-->
-<text>pages/list1/list1.wxml</text>
+<view class="body">
+<text class="title">火影忍者,承载多人年少时的梦，最经典的十句语录！</text>
+  <view class="content">
+    <text>No.1 木叶飞舞之处，火亦生生不息，火光会继续照亮这个村子，并且让新生的树叶发芽。</text>
+    <image class="im" src="/pages/image/1.jpg"></image>
+  </view>
+  <view class="content">
+    <text>No.2 有思念你的人在的地方,就是你的归处。</text>
+    <image class="im" src="/pages/image/2.jpg"></image>
+  </view>
+  <view class="content">
+    <text>No.3 为了你，我愿与世界为敌。</text>
+    <image class="im" src="/pages/image/5.jpg"></image>
+  </view>
+  <view class="content">
+    <text>No.4 你逢赌必输，就赌我不会回来吧。</text>
+    <image class="im" src="/pages/image/4.jpg"></image>
+  </view>
+   <view class="content">
+    <text>No.5 不相信自己的人 连努力的价值都没有。</text>
+    <image class="im" src="/pages/image/3.jpg"></image>
+  </view>
+   <view class="content">
+    <text>No.6 言出必行，说到做到，这就是我的忍道。</text>
+    <image class="im" src="/pages/image/6.jpg"></image>
+  </view>
+   <view class="content">
+    <text>No.7 你是沐浴在阳光下的树叶，而我是深埋在黑暗的根。</text>
+    <image class="im" src="/pages/image/7.jpg"></image>
+  </view>
+   <view class="content">
+    <text>No.8 就算是笼中鸟 只要够聪明也能试着用自己的嘴打开笼子 也能期望再次自由的翱翔在空中。</text>
+    <image class="im" src="/pages/image/8.jpg"></image>
+  </view>
+   <view class="content">
+    <text>No.9 打破忍者世界规则跟铁律的人，我们都叫他废物。可是，不懂得重视同伴的人，连废物都不如。</text>
+    <image class="im" src="/pages/image/9.jpg"></image>
+  </view>
+    <view class="content">
+    <text>No.10 原谅我,佐助,这是最后一次了。</text>
+    <image class="im" src="/pages/image/10.jpg"></image>
+  </view>
+</view>
