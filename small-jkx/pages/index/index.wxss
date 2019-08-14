@@ -1,0 +1,39 @@
+/**index.wxss**/
+.title{
+  background-color: #D5F5E3;
+}
+.s{
+  background-color: #D5F5E3;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 宋体;
+  margin-top: 5px;
+}
+.h{
+  width: 500px;
+  margin-top: 5px;
+}
+
+.content{
+  border: 2px blue solid;
+  height: 150px;
+  display: flex;
+  margin-top: 5px;
+}
+.a{
+  width: 40%;
+}
+.a image{
+  width: 100%;
+  height: 150px;
+}
+.font{
+font-weight: bold;
+}
+.b{
+  width: 60%;
+}
+.d{
+font-family: 楷体;
+color:#BB8FCE;
+}
